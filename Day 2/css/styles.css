@@ -1,0 +1,18 @@
+.card{
+    width:50%;
+    display: inline-block; /* takes up as much room as needed instead of blocking whole line*/
+}
+.card img{
+    width:100%;
+}
+@media(max-width: 780px){
+    .flex{
+        flex-direction: column;/*boxes will stack on top of teachother? at that window size*/
+    }
+}
+@media (max-width: 980px) {
+    body{
+        background-color: aqua;/*sets background color of webpage to blue when window is 980px*/
+    }
+    
+}
